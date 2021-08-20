@@ -1,0 +1,120 @@
+
+/*
+==================================
+	Theme Background color
+==================================
+*/
+.social-icons li:hover a,
+.backtoup,
+.slick-arrow:focus,
+.slick-arrow:hover,
+.flip-clock-dot,
+.flip-clock-wrapper ul li a div div.inn,
+.dropdown select option:hover,
+.short_keys li:hover,
+.short_keys li.active,
+.btn2-normal:hover,
+.btn_border.active,
+.bg1,
+.cart > span,
+.search_bar button{
+
+	background: #dc0414;
+}
+
+/*
+==================================
+	Theme Border color
+==================================
+*/
+.input-felid input:focus,
+.slick-arrow:hover,
+.image-variation .item.slick-slide:focus,
+.image-variation .item:hover img,
+.image-variation .item.slick-slide.slick-current.slick-active img,
+.btn2-normal:hover,
+.btn_border.active,
+.search_bar input{
+	border-color: #dc0414;
+}
+
+/*
+==================================
+	Theme color
+==================================
+*/
+.heading a:hover,
+.tab_links > a:hover b,
+.listing_content h6:hover,
+.wiget-link li:hover a,
+.ao-tabs ul li:hover a,
+.listing_content h3,
+.product_content h3,
+.for_mobile_timer h6,
+.search_ui li > a:hover,
+.clr1,
+.right_list > a:hover > i,
+
+.listing li:hover a,
+.meta_list li:hover a,
+.navigation > ul > li:hover > a,
+.product_content h6:hover,
+.side_widget ul > li:hover > a,
+.Categories_section > li ul li:hover > a,
+.Categories_section > li:hover > a{
+	color: #dc0414;
+}
+
+
+/*
+==================================
+	Theme Default colors
+==================================
+*/
+.right_list .btn-small:hover,
+.bg-bk{
+	background: #000;
+	color: #fff;
+}
+.bg2:hover,
+.bg-bk:hover{
+	background: #dc0414;
+	color: #fff;
+}
+.bg2{
+	background: #fff1f1;
+	color: #dc0414;
+}
+.short_keys li:hover,
+.short_keys li.active,
+.btn2-normal:hover,
+.btn_border.active{
+	color: #fff;
+}
+.btn_border{
+	border:1px solid #ccc;
+	color: #000;
+}
+
+.image-variation .item.slick-slide.slick-current.slick-active.slick-center,
+.image-variation .item.slick-slide:focus{
+	outline: 1px solid #dc0414;
+	outline-offset: -2px;
+	border-radius: 5px;
+}
+
+.meta_tag li:hover a{
+	color: #000;
+}
+
+.input-felid input,
+.wiget-link li,
+.wiget-link li a,
+.social-icons li,
+.social-icons li a{
+	transition:transform 0.3s ease-in-out 0s;
+	-moz-transition:transform 0.3s ease-in-out 0s;
+	-ms-transition:transform 0.3s ease-in-out 0s;
+	-o-transition:transform 0.3s ease-in-out 0s;
+	-webkit-transition:transform 0.3s ease-in-out 0s;
+}

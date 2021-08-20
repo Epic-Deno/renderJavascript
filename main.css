@@ -1,0 +1,104 @@
+ /*  */
+:root {
+    --dark-pk: #ededed;
+    --body-bgcolor: #fff;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --footercontent: #344447;
+    --font-family-body: 'Open Sans', sans-serif, 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-family-sans-serif: 'Open Sans', sans-serif -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: 'Open Sans', sans-serif, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+:root[data-theme=light] {
+    --dark-pk: #fff;
+}
+* {padding: 0;margin: 0;}
+
+.async-hide {
+    opacity: 0 !important;
+}
+
+.loading_container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e23b524d
+}
+
+.loading_loader {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    filter: url(#gooey);
+    background: url("https://aodour.oss-ap-southeast-1.aliyuncs.com/Frontend/staticFIle/commonImage/assets/loading.gif") no-repeat;
+    background-size: 140px 140px;
+}
+
+.loading_loader span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: animate 4s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--i));
+}
+
+i.loadingTitle {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    /* font-style: normal; */
+    text-transform: capitalize;
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+#chat-widget-container {
+    z-index: 2000!important;
+}
+#refcandy-poprocks>div {
+    bottom: 50px!important;
+    z-index: 10!important;
+}
+.flashsale_timer li span {
+    color: #fff!important;
+}
+.flashsale_timer li::before {
+    color: #fff!important;
+}
+.simple-banner iframe {
+    width: 100%;
+    height: 720px!important;
+}
+@media (max-width: 767px) { 
+
+.simple-banner iframe {
+    height: 260px!important;
+  }
+}
